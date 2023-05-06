@@ -1,0 +1,28 @@
+H:\VS_Projects\Controls\bin\Debug\Controls.exe.config
+H:\VS_Projects\Controls\bin\Debug\Controls.exe
+H:\VS_Projects\Controls\bin\Debug\Controls.pdb
+H:\VS_Projects\Controls\obj\Debug\Controls.csproj.AssemblyReference.cache
+H:\VS_Projects\Controls\obj\Debug\Controls.Form1.resources
+H:\VS_Projects\Controls\obj\Debug\Controls.Properties.Resources.resources
+H:\VS_Projects\Controls\obj\Debug\Controls.csproj.GenerateResource.cache
+H:\VS_Projects\Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+H:\VS_Projects\Controls\obj\Debug\Controls.exe
+H:\VS_Projects\Controls\obj\Debug\Controls.pdb
+C:\Users\Tim\Desktop\New folder\bin\Debug\Controls.exe.config
+C:\Users\Tim\Desktop\New folder\bin\Debug\Controls.exe
+C:\Users\Tim\Desktop\New folder\bin\Debug\Controls.pdb
+C:\Users\Tim\Desktop\New folder\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+C:\Users\Tim\Desktop\New folder\obj\Debug\Controls.Form1.resources
+C:\Users\Tim\Desktop\New folder\obj\Debug\Controls.Properties.Resources.resources
+C:\Users\Tim\Desktop\New folder\obj\Debug\Controls.csproj.GenerateResource.Cache
+C:\Users\Tim\Desktop\New folder\obj\Debug\Controls.exe
+C:\Users\Tim\Desktop\New folder\obj\Debug\Controls.pdb
+Y:\New folder\bin\Debug\Controls.exe.config
+Y:\New folder\bin\Debug\Controls.exe
+Y:\New folder\bin\Debug\Controls.pdb
+Y:\New folder\obj\Debug\Controls.csprojResolveAssemblyReference.cache
+Y:\New folder\obj\Debug\Controls.Form1.resources
+Y:\New folder\obj\Debug\Controls.Properties.Resources.resources
+Y:\New folder\obj\Debug\Controls.csproj.GenerateResource.Cache
+Y:\New folder\obj\Debug\Controls.exe
+Y:\New folder\obj\Debug\Controls.pdb

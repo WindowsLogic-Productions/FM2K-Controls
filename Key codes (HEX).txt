@@ -1,0 +1,212 @@
+Symbol name				hex		dec		Description
+VK_LBUTTON				01		1		Left Mouse Button
+VK_RBUTTON				02		2		Right Mouse Button
+VK_CANCEL				03		3		Execute Control-break
+VK_MBUTTON				04		4		Middle Mouse Button
+VK_XBUTTON1				05		5		Mouse Button X1
+VK_XBUTTON2				06		6		Mouse Button X2
+-						07		7		Unused
+VK_BACK					08		8		BACKSPACE key
+VK_TAB					09		9		TAB key
+-						0A-0B	10-11	Reserved
+VK_CLEAR				0C		12		CLEAR key
+VK_RETURN				0D		13		ENTER key
+-						0E-0F	14-15	Unused
+VK_SHIFT				10		16		SHIFT key
+VK_CONTROL				11		17		CTRL key
+VK_MENU					12		18		ALT key
+VK_PAUSE				13		19		PAUSE key
+VK_CAPITAL				14		20		CAPS LOCK key
+VK_KANA					15		21		Input Method Editor (IME) Kana mode
+VK_HANGUEL				15		21		IME Hanguel mode (maintained for compatibility; use VK_HANGUL)
+VK_HANGUL				15		21		IME Hangul mode
+-						16		22		Unused
+VK_JUNJA				17		23		IME Junja mode
+VK_FINAL				18		24		IME final mode
+VK_HANJA				19		25		IME Hanja mode
+VK_KANJI				19		25		IME Kanji mode
+-						1A		26		Unused
+VK_ESCAPE				1B		27		ESC key
+VK_CONVERT				1Ñ		28		IME convert (Reserved for Kanji systems)
+VK_NONCONVERT			1D		29		IME nonconvert (Reserved for Kanji systems)
+VK_ACCEPT				1E		30		IME accept (Reserved for Kanji systems)
+VK_MODECHANGE			1F		31		IME mode change request (Reserved for Kanji systems)
+VK_SPACE				20		32		Space key
+VK_PRIOR				21		33		PAGE UP key
+VK_NEXT					22		34		PAGE DOWN key
+VK_END					23		35		END key
+VK_HOME					24		36		HOME key
+VK_LEFT					25		37		LEFT ARROW key
+VK_UP					26		38		UP ARROW key
+VK_RIGHT				27		39		RIGHT ARROW key
+VK_DOWN					28		40		DOWN ARROW key
+VK_SELECT				29		41		SELECT key
+VK_PRINT				2A		42		PRINT key
+VK_EXECUTE				2B		43		EXECUTE key
+VK_SNAPSHOT				2C		44		PRINT SCREEN key for Windows 3.0 and later
+VK_INSERT				2D		45		INS key
+VK_DELETE				2E		46		DEL key
+VK_HELP					2F		47		HELP key
+VK_0					30		48		0 key
+VK_1					31		49		1 key
+VK_2					32		50		2 key
+VK_3					33		51		3 key
+VK_4					34		52		4 key
+VK_5					35		53		5 key
+VK_6					36		54		6 key
+VK_7					37		55		7 key
+VK_8					38		56		8 key
+VK_9					39		57		9 key
+-						3A-40	58-64	Unused
+VK_A					41		65		A key
+VK_B					42		66		B key
+VK_C					43		67		C key
+VK_D					44		68		D key
+VK_E					45		69		E key
+VK_F					46		70		F key
+VK_G					47		71		G key
+VK_H					48		72		H key
+VK_I					49		73		I key
+VK_J					4A		74		J key
+VK_K					4B		75		K key
+VK_L					4C		76		L key
+VK_M					4D		77		M key
+VK_N					4E		78		N key
+VK_O					4F		79		O key
+VK_P					50		80		P key
+VK_Q					51		81		Q key
+VK_R					52		82		R key
+VK_S					53		83		S key
+VK_T					54		84		T key
+VK_U					55		85		U key
+VK_V					56		86		V key
+VK_W					57		87		W key
+VK_X					58		88		X key
+VK_Y					59		89		Y key
+VK_Z					5A		90		Z key
+VK_LWIN					5B		91		Left Windows key (Microsoft Natural Keyboard)
+VK_RWIN					5C		92		Right Windows key (Microsoft Natural Keyboard)
+VK_APPS					5D		93		Applications key (Microsoft Natural Keyboard)
+-						5E		94		Reserved
+VK_SLEEP				5F		95		Computer Sleep key
+VK_NUMPAD0				60		96		Numeric keypad 0 key
+VK_NUMPAD1				61		97		Numeric keypad 1 key
+VK_NUMPAD2				62		98		Numeric keypad 2 key
+VK_NUMPAD3				63		99		Numeric keypad 3 key
+VK_NUMPAD4				64		100		Numeric keypad 4 key
+VK_NUMPAD5				65		101		Numeric keypad 5 key
+VK_NUMPAD6				66		102		Numeric keypad 6 key
+VK_NUMPAD7				67		103		Numeric keypad 7 key
+VK_NUMPAD8				68		104		Numeric keypad 8 key
+VK_NUMPAD9				69		105		Numeric keypad 9 key
+VK_MULTIPLY				6A		106		Multiply key (*)
+VK_ADD					6B		107		Add key (+)
+VK_SEPARATOR			6C		108		Separator key
+VK_SUBTRACT				6D		109		Subtract key (-)
+VK_DECIMAL				6E		110		Decimal key
+VK_DIVIDE				6F		111		Divide key (/)
+VK_F1					70		112		F1 key
+VK_F2					71		113		F2 key
+VK_F3					72		114		F3 key
+VK_F4					73		115		F4 key
+VK_F5					74		116		F5 key
+VK_F6					75		117		F6 key
+VK_F7					76		118		F7 key
+VK_F8					77		119		F8 key
+VK_F9					78		120		F9 key
+VK_F10					79		121		F10 key
+VK_F11					7A		122		F11 key
+VK_F12					7B		123		F12 key
+VK_F13					7C		124		F13 key
+VK_F14					7D		125		F14 key
+VK_F15					7E		126		F15 key
+VK_F16					7F		127		F16 key
+VK_F17					80		128		F17 key
+VK_F18					81		129		F18 key
+VK_F19					82		130		F19 key
+VK_F20					83		131		F20 key
+VK_F21					84		132		F21 key
+VK_F22					85		133		F22 key
+VK_F23					86		134		F23 key
+VK_F24					87		135		F24 key
+-						88-8F	136-143	Unused
+VK_NUMLOCK				90		144		NUM LOCK key
+VK_SCROLL				91		145		SCROLL LOCK key
+VK_OEM_NEC_EQUAL		92		146		NEC PC-9800 kbd definitions: '=' key on numpad
+VK_OEM_FJ_JISHO			92		146		Fujitsu/OASYS kbd definitions: 'Dictionary' key
+VK_OEM_FJ_MASSHOU		93		147		Fujitsu/OASYS kbd definitions: 'Unregister word' key
+VK_OEM_FJ_TOUROKU		94		148		Fujitsu/OASYS kbd definitions: 'Register word' key
+VK_OEM_FJ_LOYA			95		149		Fujitsu/OASYS kbd definitions: 'Left OYAYUBI' key
+VK_OEM_FJ_ROYA			96		150		Fujitsu/OASYS kbd definitions: 'Right OYAYUBI' key
+-						97-9F	151-159 Unused
+VK_LSHIFT				A0		160		Left SHIFT key
+VK_RSHIFT				A1		161		Right SHIFT key
+VK_LCONTROL				A2		162		Left CONTROL key
+VK_RCONTROL				A3		163		Right CONTROL key
+VK_LMENU				A4		164		Left MENU key
+VK_RMENU				A5		165		Right MENU key
+VK_BROWSER_BACK			A6		166		Browser Back key
+VK_BROWSER_FORWARD		A7		167		Browser Forward key
+VK_BROWSER_REFRESH		A8		168		Browser Refresh key
+VK_BROWSER_STOP			A9		169		Browser Stop key
+VK_BROWSER_SEARCH		AA		170		Browser Search key
+VK_BROWSER_FAVORITES	AB		171		Browser Favorites key
+VK_BROWSER_HOME			AC		172		Browser Start and Home key
+VK_VOLUME_MUTE			AD		173		Volume Mute key
+VK_VOLUME_DOWN			AE		174		Volume Down key
+VK_VOLUME_UP			AF		175		Volume Up key
+VK_MEDIA_NEXT_TRACK		B0		176		Next Track key
+VK_MEDIA_PREV_TRACK		B1		177		Previous Track key
+VK_MEDIA_STOP			B2		178		Stop Media key
+VK_MEDIA_PLAY_PAUSE		B3		179		Play/Pause Media key
+VK_LAUNCH_MAIL			B4		180		Start Mail key
+VK_LAUNCH_MEDIA_SELECT	B5		181		Select Media key
+VK_LAUNCH_APP1			B6		182		Start Application 1 key
+VK_LAUNCH_APP2			B7		183		Start Application 2 key
+-						B8-B9	184-185	Reserved
+VK_OEM_1				BA		186		For the US standard keyboard, the ';:' key
+VK_OEM_PLUS				BB		187		For any country/region, the '+' key
+VK_OEM_COMMA			BC		188		For any country/region, the ',' key
+VK_OEM_MINUS			BD		189		For any country/region, the '-' key
+VK_OEM_PERIOD			BE		190		For any country/region, the '.' key
+VK_OEM_2				BF		191		For the US standard keyboard, the '/?' key
+VK_OEM_3				C0		192		For the US standard keyboard, the '`~' key
+-						C1-D7	193-215	Reserved
+-						D8-DA	216-218	Unused
+VK_OEM_4				DB		219		For the US standard keyboard, the '[{' key
+VK_OEM_5				DC		220		For the US standard keyboard, the '\|' key
+VK_OEM_6				DD		221		For the US standard keyboard, the ']}' key
+VK_OEM_7				DE		222		For the US standard keyboard, the 'single-quote/double-quote' key
+VK_OEM_8				DF		223		Used for miscellaneous characters; it can vary by keyboard.
+-						E0		224		Reserved
+-						E1		225		OEM specific
+VK_OEM_102				E2		226		Either the angle bracket key or the backslash key on the RT 102-key keyboard
+-						E3-E4	227-228	OEM specific
+VK_PROCESSKEY			E5		229		IME PROCESS key
+-						E6		230		OEM specific
+VK_PACKET				E7		231		Used to pass Unicode characters as if they were keystrokes. The VK_PACKET key is the low word of a 32-bit Virtual Key value used for non-keyboard input methods. For more information, see Remark in KEYBDINPUT, SendInput, WM_KEYDOWN, and WM_KEYUP
+-						E8		232		Unused
+VK_OEM_RESET			E9		233		Only used by Nokia.
+VK_OEM_JUMP				EA		234		Only used by Nokia.
+VK_OEM_PA1				EB		235		Only used by Nokia.
+VK_OEM_PA2				EC		236		Only used by Nokia.
+VK_OEM_PA3				ED		237		Only used by Nokia.
+VK_OEM_WSCTRL			EE		238		Only used by Nokia.
+VK_OEM_CUSEL			EF		239		Only used by Nokia.
+VK_OEM_ATTN				F0		240		Only used by Nokia.
+VK_OEM_FINNISH			F1		241		Only used by Nokia.
+VK_OEM_COPY				F2		242		Only used by Nokia.
+VK_OEM_AUTO				F3		243		Only used by Nokia.
+VK_OEM_ENLW				F4		244		Only used by Nokia.
+VK_OEM_BACKTAB			F5		245		Only used by Nokia.
+VK_ATTN					F6		246		Attn key
+VK_CRSEL				F7		247		CrSel key
+VK_EXSEL				F8		248		ExSel key
+VK_EREOF				F9		249		Erase EOF key
+VK_PLAY					FA		250		Play key
+VK_ZOOM					FB		251		Zoom key
+VK_NONAME				FC		252		Reserved for future use.
+VK_PA1					FD		253		PA1 key
+VK_OEM_CLEAR			FE		254		Clear key
+						FF		255		Multimedia keys.
+	
