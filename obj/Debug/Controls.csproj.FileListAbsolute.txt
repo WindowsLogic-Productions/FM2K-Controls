@@ -26,3 +26,14 @@ Y:\New folder\obj\Debug\Controls.Properties.Resources.resources
 Y:\New folder\obj\Debug\Controls.csproj.GenerateResource.Cache
 Y:\New folder\obj\Debug\Controls.exe
 Y:\New folder\obj\Debug\Controls.pdb
+J:\Projects\FM2K-Controls\bin\Debug\Controls.exe.config
+J:\Projects\FM2K-Controls\bin\Debug\Controls.exe
+J:\Projects\FM2K-Controls\bin\Debug\Controls.pdb
+J:\Projects\FM2K-Controls\obj\Debug\Controls.csprojAssemblyReference.cache
+J:\Projects\FM2K-Controls\obj\Debug\Controls.Main.resources
+J:\Projects\FM2K-Controls\obj\Debug\Controls.Properties.Resources.resources
+J:\Projects\FM2K-Controls\obj\Debug\Controls.csproj.GenerateResource.cache
+J:\Projects\FM2K-Controls\obj\Debug\Controls.csproj.CoreCompileInputs.cache
+J:\Projects\FM2K-Controls\obj\Debug\Controls.exe
+J:\Projects\FM2K-Controls\obj\Debug\Controls.pdb
+J:\Projects\FM2K-Controls\obj\Debug\Controls.About.resources

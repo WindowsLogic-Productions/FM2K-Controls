@@ -11,12 +11,12 @@ using System.Runtime.InteropServices;
 
 namespace Controls
 {
-    public partial class Form1 : Form
+    public partial class Main : Form
     {
-        public Form1()
+        public Main()
         {
             InitializeComponent();
-            saveToolStripMenuItem.Text = "Save As..."; //Default name of command
+            // saveToolStripMenuItem.Text = "Save As..."; //Default name of command
         }
 
         string filename;
@@ -81,11 +81,11 @@ namespace Controls
 
         private void saveToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (filename != "") // If you didn't open file, it will save it
+            if (filename != "") // If you didn't open the file, it will save it
             {
                 SaveFileDialog sf = new SaveFileDialog();
                 sf.FileName = "game.ini";
-                sf.Filter = "|game.ini";
+                sf.Filter = "INI files| *.ini";
                 
                 if (sf.ShowDialog() == DialogResult.OK) filename = sf.FileName;
                 else return;
@@ -192,10 +192,6 @@ namespace Controls
                 fstream.Write(outputText.ToArray(), 0, outputText.ToArray().Length);
                 Console.WriteLine("Text writed into file");
             }
-
-
-
-
         }
 
         private void openToolStripMenuItem_Click(object sender, EventArgs e)
@@ -387,9 +383,10 @@ namespace Controls
             }
         }
 
-        private void Form1_PreviewKeyDown(object sender, PreviewKeyDownEventArgs e)
+        private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
         {
-
+            About a = new About();
+            a.ShowDialog();
         }
     }
 }

@@ -1,7 +1,7 @@
 ﻿
 namespace Controls
 {
-    partial class Form1
+    partial class Main
     {
         /// <summary>
         /// Обязательная переменная конструктора.
@@ -50,7 +50,7 @@ namespace Controls
             this.P1ButtonB = new System.Windows.Forms.Button();
             this.label10 = new System.Windows.Forms.Label();
             this.P1ButtonC = new System.Windows.Forms.Button();
-            this.tabControl1 = new System.Windows.Forms.TabControl();
+            this.ControllerTabs = new System.Windows.Forms.TabControl();
             this.tabPage1 = new System.Windows.Forms.TabPage();
             this.P1ButtonStart = new System.Windows.Forms.Button();
             this.label11 = new System.Windows.Forms.Label();
@@ -111,9 +111,13 @@ namespace Controls
             this.fileToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.openToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.saveToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.helpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.label37 = new System.Windows.Forms.Label();
-            this.tabControl1.SuspendLayout();
+            this.ControllerTabs.SuspendLayout();
             this.tabPage1.SuspendLayout();
             this.tabPage2.SuspendLayout();
             this.tabPage3.SuspendLayout();
@@ -331,17 +335,17 @@ namespace Controls
             this.P1ButtonC.UseVisualStyleBackColor = true;
             this.P1ButtonC.Click += new System.EventHandler(this.P1Button_Click);
             // 
-            // tabControl1
+            // ControllerTabs
             // 
-            this.tabControl1.Controls.Add(this.tabPage1);
-            this.tabControl1.Controls.Add(this.tabPage2);
-            this.tabControl1.Controls.Add(this.tabPage3);
-            this.tabControl1.Controls.Add(this.tabPage4);
-            this.tabControl1.Location = new System.Drawing.Point(12, 27);
-            this.tabControl1.Name = "tabControl1";
-            this.tabControl1.SelectedIndex = 0;
-            this.tabControl1.Size = new System.Drawing.Size(419, 130);
-            this.tabControl1.TabIndex = 2;
+            this.ControllerTabs.Controls.Add(this.tabPage1);
+            this.ControllerTabs.Controls.Add(this.tabPage2);
+            this.ControllerTabs.Controls.Add(this.tabPage3);
+            this.ControllerTabs.Controls.Add(this.tabPage4);
+            this.ControllerTabs.Location = new System.Drawing.Point(12, 27);
+            this.ControllerTabs.Name = "ControllerTabs";
+            this.ControllerTabs.SelectedIndex = 0;
+            this.ControllerTabs.Size = new System.Drawing.Size(419, 130);
+            this.ControllerTabs.TabIndex = 2;
             // 
             // tabPage1
             // 
@@ -666,7 +670,7 @@ namespace Controls
             this.tabPage3.Name = "tabPage3";
             this.tabPage3.Size = new System.Drawing.Size(411, 104);
             this.tabPage3.TabIndex = 2;
-            this.tabPage3.Text = "P1 Joypad";
+            this.tabPage3.Text = "P1 Joystick";
             // 
             // P1JoyStart
             // 
@@ -828,7 +832,7 @@ namespace Controls
             this.tabPage4.Name = "tabPage4";
             this.tabPage4.Size = new System.Drawing.Size(411, 104);
             this.tabPage4.TabIndex = 3;
-            this.tabPage4.Text = "P2 Joypad";
+            this.tabPage4.Text = "P2 Joystick";
             // 
             // P2JoyStart
             // 
@@ -973,9 +977,11 @@ namespace Controls
             // menuStrip1
             // 
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.fileToolStripMenuItem});
+            this.fileToolStripMenuItem,
+            this.helpToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
+            this.menuStrip1.RenderMode = System.Windows.Forms.ToolStripRenderMode.System;
             this.menuStrip1.Size = new System.Drawing.Size(439, 24);
             this.menuStrip1.TabIndex = 3;
             this.menuStrip1.Text = "menuStrip1";
@@ -984,7 +990,9 @@ namespace Controls
             // 
             this.fileToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.openToolStripMenuItem,
-            this.saveToolStripMenuItem});
+            this.saveToolStripMenuItem,
+            this.toolStripSeparator1,
+            this.exitToolStripMenuItem});
             this.fileToolStripMenuItem.Name = "fileToolStripMenuItem";
             this.fileToolStripMenuItem.Size = new System.Drawing.Size(37, 20);
             this.fileToolStripMenuItem.Text = "File";
@@ -992,16 +1000,46 @@ namespace Controls
             // openToolStripMenuItem
             // 
             this.openToolStripMenuItem.Name = "openToolStripMenuItem";
-            this.openToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.openToolStripMenuItem.Text = "Open";
+            this.openToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.O)));
+            this.openToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
+            this.openToolStripMenuItem.Text = "Open controller configuration...";
             this.openToolStripMenuItem.Click += new System.EventHandler(this.openToolStripMenuItem_Click);
             // 
             // saveToolStripMenuItem
             // 
             this.saveToolStripMenuItem.Name = "saveToolStripMenuItem";
-            this.saveToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
-            this.saveToolStripMenuItem.Text = "Save";
+            this.saveToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Control | System.Windows.Forms.Keys.S)));
+            this.saveToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
+            this.saveToolStripMenuItem.Text = "Save controller configuration...";
             this.saveToolStripMenuItem.Click += new System.EventHandler(this.saveToolStripMenuItem_Click);
+            // 
+            // toolStripSeparator1
+            // 
+            this.toolStripSeparator1.Name = "toolStripSeparator1";
+            this.toolStripSeparator1.Size = new System.Drawing.Size(281, 6);
+            // 
+            // exitToolStripMenuItem
+            // 
+            this.exitToolStripMenuItem.Name = "exitToolStripMenuItem";
+            this.exitToolStripMenuItem.ShortcutKeys = ((System.Windows.Forms.Keys)((System.Windows.Forms.Keys.Alt | System.Windows.Forms.Keys.F4)));
+            this.exitToolStripMenuItem.Size = new System.Drawing.Size(284, 22);
+            this.exitToolStripMenuItem.Text = "Exit";
+            // 
+            // helpToolStripMenuItem
+            // 
+            this.helpToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.aboutToolStripMenuItem});
+            this.helpToolStripMenuItem.Name = "helpToolStripMenuItem";
+            this.helpToolStripMenuItem.Size = new System.Drawing.Size(44, 20);
+            this.helpToolStripMenuItem.Text = "Help";
+            // 
+            // aboutToolStripMenuItem
+            // 
+            this.aboutToolStripMenuItem.Name = "aboutToolStripMenuItem";
+            this.aboutToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2;
+            this.aboutToolStripMenuItem.Size = new System.Drawing.Size(135, 22);
+            this.aboutToolStripMenuItem.Text = "About...";
+            this.aboutToolStripMenuItem.Click += new System.EventHandler(this.aboutToolStripMenuItem_Click);
             // 
             // timer1
             // 
@@ -1016,21 +1054,24 @@ namespace Controls
             this.label37.TabIndex = 4;
             this.label37.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // Form1
+            // Main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(439, 186);
             this.Controls.Add(this.label37);
-            this.Controls.Add(this.tabControl1);
+            this.Controls.Add(this.ControllerTabs);
             this.Controls.Add(this.menuStrip1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.KeyPreview = true;
             this.MainMenuStrip = this.menuStrip1;
-            this.Name = "Form1";
-            this.Text = "Form1";
+            this.MaximizeBox = false;
+            this.Name = "Main";
+            this.ShowIcon = false;
+            this.Text = "FM2K Controller Setup";
+            this.TopMost = true;
             this.KeyDown += new System.Windows.Forms.KeyEventHandler(this.Form1_KeyDown);
-            this.PreviewKeyDown += new System.Windows.Forms.PreviewKeyDownEventHandler(this.Form1_PreviewKeyDown);
-            this.tabControl1.ResumeLayout(false);
+            this.ControllerTabs.ResumeLayout(false);
             this.tabPage1.ResumeLayout(false);
             this.tabPage2.ResumeLayout(false);
             this.tabPage3.ResumeLayout(false);
@@ -1064,7 +1105,7 @@ namespace Controls
         private System.Windows.Forms.Button P1ButtonB;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Button P1ButtonC;
-        private System.Windows.Forms.TabControl tabControl1;
+        private System.Windows.Forms.TabControl ControllerTabs;
         private System.Windows.Forms.TabPage tabPage1;
         private System.Windows.Forms.Button P1ButtonStart;
         private System.Windows.Forms.Label label11;
@@ -1127,6 +1168,10 @@ namespace Controls
         private System.Windows.Forms.ToolStripMenuItem saveToolStripMenuItem;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.Label label37;
+        private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+        private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem helpToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
     }
 }
 
