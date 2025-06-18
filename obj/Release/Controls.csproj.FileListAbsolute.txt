@@ -1,0 +1,10 @@
+J:\Projects\FM2K-Controls\bin\Release\Controls.exe.config
+J:\Projects\FM2K-Controls\bin\Release\Controls.exe
+J:\Projects\FM2K-Controls\bin\Release\Controls.pdb
+J:\Projects\FM2K-Controls\obj\Release\Controls.About.resources
+J:\Projects\FM2K-Controls\obj\Release\Controls.Main.resources
+J:\Projects\FM2K-Controls\obj\Release\Controls.Properties.Resources.resources
+J:\Projects\FM2K-Controls\obj\Release\Controls.csproj.GenerateResource.cache
+J:\Projects\FM2K-Controls\obj\Release\Controls.csproj.CoreCompileInputs.cache
+J:\Projects\FM2K-Controls\obj\Release\Controls.exe
+J:\Projects\FM2K-Controls\obj\Release\Controls.pdb

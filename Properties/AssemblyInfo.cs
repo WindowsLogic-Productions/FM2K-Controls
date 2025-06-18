@@ -5,12 +5,12 @@ using System.Runtime.InteropServices;
 // Общие сведения об этой сборке предоставляются следующим набором
 // набора атрибутов. Измените значения этих атрибутов для изменения сведений,
 // связанных со сборкой.
-[assembly: AssemblyTitle("Controls")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("FM2K Controller Setup")]
+[assembly: AssemblyDescription("A small app to set FM2K controller configuration externally.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("Controls")]
-[assembly: AssemblyCopyright("Copyright ©  2021")]
+[assembly: AssemblyCompany("WindowsLogic Productions")]
+[assembly: AssemblyProduct("FM2K Controller Setup")]
+[assembly: AssemblyCopyright("Copyright © 2025 WindowsLogic Productions. All rights reserved.")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
 
