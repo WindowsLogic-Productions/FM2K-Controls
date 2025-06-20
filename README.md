@@ -6,7 +6,5 @@ You need to have installed the following:
 
 - Visual Studio 2017 (Latest Update).
 
-# Issue Reporting & Other
-The only way to inject plug-ins at the moment is through FM2K's unused WSOCK32.dll. This is obviously limiting, but hopefully this interface will make it a lot easier.
-
+# Issue Reporting
 If you find something broken or not working correctly, open an issue in the Issues tab and we'll get straight to fixing it!
