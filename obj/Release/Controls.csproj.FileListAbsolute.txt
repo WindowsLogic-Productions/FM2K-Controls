@@ -8,3 +8,4 @@ J:\Projects\FM2K-Controls\obj\Release\Controls.csproj.GenerateResource.cache
 J:\Projects\FM2K-Controls\obj\Release\Controls.csproj.CoreCompileInputs.cache
 J:\Projects\FM2K-Controls\obj\Release\Controls.exe
 J:\Projects\FM2K-Controls\obj\Release\Controls.pdb
+J:\Projects\FM2K-Controls\obj\Release\Controls.csprojAssemblyReference.cache

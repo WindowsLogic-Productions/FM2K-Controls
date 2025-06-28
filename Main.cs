@@ -362,7 +362,7 @@ namespace Controls
 
         // Any button on form pressed
         private void P1Button_Click(object sender, EventArgs e) {
-            label37.Text = "Waiting input...";
+            labelStatus.Text = "Waiting input...";
             targetButton = (Button)sender;
             input_key = true;
         }
@@ -370,7 +370,7 @@ namespace Controls
         // Read input from keyboard
         private void Form1_KeyDown(object sender, KeyEventArgs e)
         {
-            label37.Text = "";
+            labelStatus.Text = "";
             if (input_key)
             {
                 input_key = !input_key;
