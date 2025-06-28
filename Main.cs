@@ -16,6 +16,7 @@ namespace Controls
         public Main()
         {
             InitializeComponent();
+            this.KeyPreview = true;
             // saveToolStripMenuItem.Text = "Save As..."; //Default name of command
         }
 
@@ -332,6 +333,7 @@ namespace Controls
 
 
         }
+
         // This function used for shorten code
         public void GetKeyCode(int target1, Button target2, int index, bool joy = false)
         {
@@ -346,6 +348,7 @@ namespace Controls
             if (joy) target2.Text = "Joy" + Convert.ToInt32(str);
             else target2.Text = ButtonKeys[Convert.ToInt32(str)];
         }
+
         // Since C# can't use byte[] == byte[] 
         public bool compare2arrays(byte[] arr1, byte[] arr2)
         {
@@ -374,13 +377,30 @@ namespace Controls
                 targetButton.Text = ButtonKeys[e.KeyValue];
                 buttons[Convert.ToInt32(targetButton.Tag)] = e.KeyValue;
                 Console.WriteLine(e.KeyValue);
+                e.Handled = true;
             }
             if (e.KeyCode == Keys.Enter)
             {
                 targetButton.Text = ButtonKeys[e.KeyValue];
                 buttons[Convert.ToInt32(targetButton.Tag)] = e.KeyValue;
                 Console.WriteLine(e.KeyValue);
+                e.Handled = true;
             }
+        }
+
+        // Prevent default behavior to read arrow keys as navigation keys
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
+        {
+            if (input_key && (keyData == Keys.Left || keyData == Keys.Right || keyData == Keys.Up || keyData == Keys.Down))
+            {
+                input_key = false;
+                int keyCode = (int)keyData;
+                targetButton.Text = ButtonKeys[keyCode];
+                buttons[Convert.ToInt32(targetButton.Tag)] = keyCode;
+                Console.WriteLine(keyCode);
+                return true; // Suppress default behavior
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
         }
 
         private void aboutToolStripMenuItem_Click(object sender, EventArgs e)
